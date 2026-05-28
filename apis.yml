@@ -1,0 +1,32 @@
+aid: onyx-bazaar
+name: Onyx Bazaar
+description: "Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API"
+url: https://onyx-actions.onrender.com/bazaar
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Open Data"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Open Data
+  - Public APIs
+apis:
+  - name: Onyx Bazaar
+    description: "Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API"
+    humanURL: https://onyx-actions.onrender.com/bazaar
+    baseURL: https://onyx-actions.onrender.com/bazaar
+    tags:
+      - Open Data
+    properties:
+      - type: Documentation
+        url: https://onyx-actions.onrender.com/bazaar
+common:
+  - type: Website
+    url: https://onyx-actions.onrender.com/bazaar
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
