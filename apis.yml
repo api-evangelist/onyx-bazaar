@@ -22,6 +22,26 @@ apis:
     properties:
       - type: Documentation
         url: https://onyx-actions.onrender.com/bazaar
+  - name: JMT x402 Real-Money Agent Tools
+    description: "25 pay-per-call API endpoints for AI agents on Base mainnet. AI-powered research, company intelligence, SEC filing analysis, news briefings, social sentiment, crypto research, competitor analysis, regulatory monitoring, macro dashboards, market pulse, domain trust scores, web search, live prices, and text utilities. Dexter facilitator (0% fee, gas-sponsored)."
+    humanURL: https://jmt-x402-proxy.jmthomasofficial.workers.dev
+    baseURL: https://jmt-x402-proxy.jmthomasofficial.workers.dev
+    tags:
+      - AI
+      - Research
+      - Finance
+      - Crypto
+      - x402
+      - Base
+    properties:
+      - type: Discovery
+        url: https://jmt-x402-proxy.jmthomasofficial.workers.dev/.well-known/x402
+      - type: OpenAPI
+        url: https://jmt-x402-proxy.jmthomasofficial.workers.dev/openapi.json
+      - type: MCP
+        url: https://github.com/jmthomasofficial/x402-mcp-server
+      - type: Payment
+        url: https://x402.dexter.cash
 common:
   - type: Website
     url: https://onyx-actions.onrender.com/bazaar
