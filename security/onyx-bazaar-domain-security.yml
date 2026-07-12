@@ -1,0 +1,22 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: onyx-actions.onrender.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 24 22:01:50 2026 GMT
+  hsts: null
+domains:
+- domain: onrender.com
+  dnssec: false
+  caa:
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "digicert.com"
+  - 0 issuewild "letsencrypt.org"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 iodef "mailto:security+caafailure@render.com"
+  - 0 issue "digicert.com"
+  spf: false
+  dmarc: true
+  dmarc_policy: none
