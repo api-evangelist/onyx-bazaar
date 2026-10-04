@@ -39,7 +39,6 @@ apis:
   - name: Onyx Bazaar
     description: "Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API"
     humanURL: https://onyx-actions.onrender.com/bazaar
-    baseURL: https://onyx-actions.onrender.com/bazaar
     tags:
       - Open Data
     properties:
